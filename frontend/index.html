@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+<div class="container">
+
+    <h1>Email Marketing - Infinity</h1>
+
+    <div class="section">
+        <h2>Adicionar Contato</h2>
+        <input type="text" id="nome" placeholder="Nome">
+        <input type="email" id="email" placeholder="Email">
+        <button onclick="adicionarContato()">Adicionar</button>
+    </div>
+
+    <div class="section">
+        <h2>Lista de Emails</h2>
+        <ul id="lista"></ul>
+    </div>
+
+    <div class="section">
+        <h2>Campanha</h2>
+        <button onclick="enviarCampanha()">Enviar Campanha</button>
+        <p id="resultado"></p>
+    </div>
+
+    <div class="section">
+        <h2>Relatórios</h2>
+        <button onclick="carregarRelatorio()">Ver Relatório</button>
+        <button onclick="exportarCSV()">Exportar CSV</button>
+        <ul id="relatorio"></ul>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</body>
+</html>
